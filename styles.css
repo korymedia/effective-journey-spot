@@ -1,0 +1,96 @@
+*{
+    font-family: Arial;
+}
+body{
+    background-color: #121212;
+}
+.flexbox{
+    background-color: #000000;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 750px;
+    height: 900px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button{
+    background-color: black;
+    color: white;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 300px;
+    margin: 5px;
+    font-size: 15px;
+}
+button:active {
+    color: brown;
+}
+button:hover{
+    box-shadow: 0px 4px 10px;
+    border: 0px solid #000;
+}
+h1{
+    color: white;
+}
+hr{
+    margin: 40px;
+}
+h4{
+    color: white;
+}
+.logo{
+    margin-top: 20px;
+    margin-bottom: 0;
+    width: 30px;
+    position: relative;
+    left: 1px;
+}
+input{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 300px;
+    border: 1px solid white;
+    margin: 10px;
+}
+img{
+    position: relative;
+    right: 30px;
+}
+a{
+    color: skyblue;
+}
+label{
+    color: white;
+    position: relative;
+    right: 93px;
+}
+.password{
+    position: relative;
+    right: 125px;
+}
+.Login{
+    background-color: #1ed760;
+    border: none;
+}
+input::placeholder {
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+}
+.Login:hover{
+    size: 10%;
+    background-color: #1ed760;
+    box-shadow: 5px;
+    cursor: pointer;
+    border: 2px white;
+}
+footer{
+    background-color: #181818;
+    color: #b3b3b3;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    position: sticky;
+}
